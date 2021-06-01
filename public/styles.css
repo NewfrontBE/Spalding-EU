@@ -31831,6 +31831,22 @@ video {
   --tw-backdrop-sepia: sepia(100%);
 }
 
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.25);
+}
+
+.text-shadow-md {
+  text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.30);
+}
+
+.text-shadow-lg {
+  text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.40);
+}
+
+.text-shadow-none {
+  text-shadow: none;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -62939,6 +62955,22 @@ video {
 
   .sm\:backdrop-sepia {
     --tw-backdrop-sepia: sepia(100%);
+  }
+
+  .sm\:text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  }
+
+  .sm\:text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.30);
+  }
+
+  .sm\:text-shadow-lg {
+    text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.40);
+  }
+
+  .sm\:text-shadow-none {
+    text-shadow: none;
   }
 }
 
@@ -94051,6 +94083,22 @@ video {
   .md\:backdrop-sepia {
     --tw-backdrop-sepia: sepia(100%);
   }
+
+  .md\:text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  }
+
+  .md\:text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.30);
+  }
+
+  .md\:text-shadow-lg {
+    text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.40);
+  }
+
+  .md\:text-shadow-none {
+    text-shadow: none;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -125161,6 +125209,22 @@ video {
 
   .lg\:backdrop-sepia {
     --tw-backdrop-sepia: sepia(100%);
+  }
+
+  .lg\:text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  }
+
+  .lg\:text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.30);
+  }
+
+  .lg\:text-shadow-lg {
+    text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.40);
+  }
+
+  .lg\:text-shadow-none {
+    text-shadow: none;
   }
 }
 
@@ -156273,6 +156337,22 @@ video {
   .xl\:backdrop-sepia {
     --tw-backdrop-sepia: sepia(100%);
   }
+
+  .xl\:text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  }
+
+  .xl\:text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.30);
+  }
+
+  .xl\:text-shadow-lg {
+    text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.40);
+  }
+
+  .xl\:text-shadow-none {
+    text-shadow: none;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -187383,5 +187463,21 @@ video {
 
   .\32xl\:backdrop-sepia {
     --tw-backdrop-sepia: sepia(100%);
+  }
+
+  .\32xl\:text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  }
+
+  .\32xl\:text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.30);
+  }
+
+  .\32xl\:text-shadow-lg {
+    text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.40);
+  }
+
+  .\32xl\:text-shadow-none {
+    text-shadow: none;
   }
 }
