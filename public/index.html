@@ -10,8 +10,35 @@
 <body>
 
     <header>
-        <div class="bg-black text-white">Topbar</div>
+        <div class="topbar flex justify-between px-4 py-2 bg-black text-white text-sm">
+            <div class="">Register to our newsletter and receive a 10% discount sitewide</div>
+            <div class="">English</div>
+        </div>
+        <div class="navbar flex justify-between items-center p-4">
+            <div class="logo"><img src="/public/img/spalding-logo.svg" alt="Spalding logo"></div>
+            <div class="megamenu">
+                <ul class="flex uppercase tracking-wide font-bold text-lg block">
+                    <li class="mr-12"><a href="#">Basketball</a></li>
+                    <li><a href="#">Apparel</a></li>
+                </ul>
+            </div>
+            <div class="minicart"><svg xmlns="http://www.w3.org/2000/svg" class="inline m-2" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="6" cy="19" r="2" />
+                <circle cx="17" cy="19" r="2" />
+                <path d="M17 17h-11v-14h-2" />
+                <path d="M6 5l14 1l-1 7h-13" />
+              </svg>€ 0,00</div>
+        </div>
     </header>
+
+    <section class="flex bg-center justify-center bg-cover py-60 text-white" style="background-image: url(/public/img/spalding-hero-home.jpg);">
+        <div class="flex flex-col text-center max-w-lg headerwrapper">
+            <p class="font-bold text-sm uppercase">Bring home the legend</p>
+            <h3 class="font-black text-4xl uppercase">Own the hardword with precision</h3>
+            <button class="mt-4">Shop now</button>
+        </div>  
+    </section>
     
 </body>
 </html>
