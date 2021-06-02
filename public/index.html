@@ -33,7 +33,7 @@
     </header>
 
     <!-- homepage hero-->
-    <section class="bg-center bg-cover py-60 text-white" style="background-image: url(/public/img/spalding-hero-home.jpg);">
+    <section class="bg-center bg-cover py-28 md:py-60 text-white" style="background-image: url(/public/img/spalding-hero-home.jpg);">
         <div class="text-center headerwrapper">
             <p class="font-bold text-sm uppercase tracking-wide">Bring home the legend</p>
             <h3 class="font-black text-4xl max-w-lg mx-auto uppercase tracking-wider text-shadow-lg">Own the hardword with precision</h3>
@@ -42,8 +42,8 @@
     </section>
 
     <!-- usp's -->
-    <div class="container usp flex mx-auto p-12">
-        <div class="text-center w-full sm:w-1/2">
+    <div class="container usp grid grid-cols-2 md:grid-cols-4 mx-auto py-12 gap-y-8">
+        <div class="text-center mx-auto">
             <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <circle cx="7" cy="17" r="2" />
@@ -52,7 +52,7 @@
             <line x1="3" y1="9" x2="7" y2="9" />
           </svg><span class="block font-bold mt-2">Free shipping</span><span class="block">On all orders</span>
         </div>
-        <div class="text-center w-full sm:w-1/2">
+        <div class="text-center mx-auto">
             <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
@@ -60,7 +60,7 @@
             <line x1="12" y1="12" x2="12" y2="14.5" />
           </svg><span class="block font-bold mt-2">Secure payment</span><span class="block">With SSL encryption</span>
         </div>
-        <div class="text-center w-full sm:w-1/2">
+        <div class="text-center mx-auto">
             <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <circle cx="7" cy="17" r="2" />
@@ -70,7 +70,7 @@
             <path d="M13 6h5l3 5v6h-2" />
           </svg><span class="block font-bold mt-2">Easy returns</span><span class="block">30 day return policy</span>
         </div>
-        <div class="text-center w-full sm:w-1/2">
+        <div class="text-center mx-auto">
             <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <path d="M12 18h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7.5" />
@@ -113,7 +113,7 @@
     </div>
 
     <!-- shop category hero -->
-    <div class="container mx-auto h-96 mt-8 bg-top bg-cover p-4 flex items-end text-white uppercase" style="background-image: url(./img/full-width-apparel-category-homepage.jpg);">
+    <div class="container mx-auto h-96 mt-8 bg-top bg-cover p-4 flex items-end justify-center md:justify-start text-white uppercase" style="background-image: url(./img/full-width-apparel-category-homepage.jpg);">
         <div class="wrapper">
             <span class="font-bold">For you and your team</span>
             <h5 class="font-extrabold text-3xl">Apparel</h5>
@@ -124,7 +124,7 @@
     <footer>
         <!-- newsletter -->
         <div class="bg-black text-white mt-8 py-12">
-            <div class="container mx-auto grid grid-cols-2 items-center">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center p-2">
                 <div class="text-2xl font-bold">Sign up for our newsletter<br><span class="text-sm font-normal	">And get 10% off sitewide</span></div>
                 <div><input type="email" class="w-9/12 h-10 text-black p-2 inline border-2 border-black	"><button type="submit" class="inline w-3/12 text-black uppercase bg-gray-50 font-semibold h-10 border-2 border-black">Subscribe</button></div>
             </div> 
@@ -133,14 +133,14 @@
         <!-- Spalding footer menu -->
         <div class="bg-gray-50 text-black py-16">
             <div class="container mx-auto">
-                <div class="grid grid-cols-4 grid-rows-2">
-                    <div class="footerlogo row-span-2 pr-14">
+                <div class="grid grid-cols-4 grid-rows-2 gap-y-12 p-2">
+                    <div class="footerlogo row-span-2 pr-14 col-span-4 md:col-span-1">
                         <img src="/public/img/spalding-logo.svg" alt="Spalding logo">
                         <p class="text-sm font-semibold my-4">Since 1876, igniting the inner confidence that lives in athletes of all levels. Our heritage of high quality basketball products is what makes us stand out while you excel.</p>
                         <span class="text-sm text-gray-500">Official Spalding webshop for Europe.</span>
-                        <img class="mt-4" src="/public/img/betaal-iconen.svg" alt="payment options">
+                        <img class="mt-4 w-1/2 md:w-full mb-12" src="/public/img/betaal-iconen.svg" alt="payment options">
                     </div>
-                    <div class="shopmenu">
+                    <div class="shopmenu col-span-2 md:col-span-1">
                         <h6 class="text-lg font-bold uppercase">shop now</h6>
                         <ul class="font-medium leading-7">
                             <li>All products</li>
@@ -149,7 +149,7 @@
                             <li>Apparel</li>
                         </ul>
                     </div>
-                    <div class="aboutmenu">
+                    <div class="aboutmenu col-span-2 md:col-span-1">
                         <h6 class="text-lg font-bold uppercase">about spalding</h6>
                         <ul class="font-medium leading-7">
                             <li>Contact</li>
@@ -157,7 +157,7 @@
                             <li>125 Years</li>
                         </ul>
                     </div>
-                    <div class="socialmenu">
+                    <div class="socialmenu col-span-4 md:col-span-1">
                         <h6 class="text-lg font-bold uppercase">social media</h6>
                         <ul class="font-medium leading-7">
                             <li><svg xmlns="http://www.w3.org/2000/svg" class="inline" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -177,13 +177,13 @@
                               </svg> Youtube</li>
                         </ul>
                     </div>
-                    <div class="otherbrands col-span-3 mt-32 w-10/12">
+                    <div class="otherbrands col-span-4 md:col-span-3 mt-8 md:mt-28 w-full md:w-10/12">
                         <h6 class="text-lg font-bold uppercase mb-4">our other brands</h6>
                         <div class="grid grid-cols-4 items-center">
-                            <div><a href="#"><img class="w-48" src="/public/img/mcdavid-logo-black-ref.svg" alt="McDavid"></a></div>
-                            <div><a href="#"><img class="w-48" src="/public/img/shockdoctor-logo-black-ref.svg" alt="Shock Doctor"></a></div>
-                            <div><a href="#"><img class="w-40" src="/public/img/nathan-logo-black-ref.svg" alt="Nathan"></a></div>
-                            <div><a href="#"><img class="w-32" src="/public/img/kttape-logo-black-ref.svg" alt="Kt Tape"></a></div>
+                            <div class="mr-4"><a href="#"><img class="w-full md:w-48" src="/public/img/mcdavid-logo-black-ref.svg" alt="McDavid"></a></div>
+                            <div class="mr-4"><a href="#"><img class="w-full md:w-48" src="/public/img/shockdoctor-logo-black-ref.svg" alt="Shock Doctor"></a></div>
+                            <div class="mr-4"><a href="#"><img class="w-full md:w-40" src="/public/img/nathan-logo-black-ref.svg" alt="Nathan"></a></div>
+                            <div class="mr-4"><a href="#"><img class="w-full md:w-32" src="/public/img/kttape-logo-black-ref.svg" alt="Kt Tape"></a></div>
                         </div>
                     </div>
                   </div>
